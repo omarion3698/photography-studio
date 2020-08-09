@@ -10,6 +10,7 @@
   <link href="js/woocommerce-FlexSlider-690832b/demo/css/flexslider.css" rel="stylesheet" type="text/css">
   <link href="js/lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
   <div class="banner">
       <header>
@@ -26,7 +27,7 @@
       </header>
       
   <div class="nav1">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,8 +53,9 @@
               <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
-        </div>
+        </div>  
       </nav>
+  </div>
   
       <div class="container slider">
         <div class="flexslider">
@@ -87,7 +89,6 @@
       </div>
   </div>
 
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -102,11 +103,11 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cumque repellendus eius explicabo voluptatum nostrum incidunt laborum modi, officia quasi libero reiciendis. Pariatur earum qui, sapiente quas vel veritatis debitis.</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>      </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>
-  </div>
 
 <div class="inform" id="contact">
   <div class="container">
@@ -115,16 +116,16 @@
       <form action="#" method="post">
         <div class="row">
           <div class="col-sm-4 col-md-4 form-left">
-            <input type="text" name="name" placeholder="Name" required="">
+            <input type="text" name="name" placeholder="Name..." required="">
           </div>
           <div class="col-sm-4 col-md-4 form-left">
-            <input type="email" name="email" placeholder="email" required="">
+            <input type="email" name="email" placeholder="Email..." required="">
           </div>
           <div class="col-sm-4 col-md-4 form-left">
-            <input type="phone" name="phone" placeholder="Phone" required="">
+            <input type="phone" name="phone" placeholder="Phone..." required="">
           </div>
         </div>
-        <textarea name="message" placeholder="message" required=""></textarea>
+        <textarea name="message" placeholder="Message..." required=""></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
@@ -284,8 +285,8 @@
     <div class="gallery-grids">
       <div class="row">
         <div class="col-md-4 col-sm-4 col-6 gallery_grid_img">
-          <a class="" href="images/camera.jpg" data-lightbox="example-set" data-title=""> 
-              <img class="img-fluid" src="images/camera.jpg" alt="A camera"> 
+          <a class="" href="images/Camera.jpg" data-lightbox="example-set" data-title=""> 
+              <img class="img-fluid" src="images/Camera.jpg" alt="A camera"> 
           </a>
         </div>
         <div class="col-md-4 col-sm-4 col-6 gallery_grid_img">
@@ -353,6 +354,11 @@
               <img class="img-fluid" src="images/wedding.jpg" alt="Wedding">
           </a>
         </div>
+        <div class="col-md-4 col-sm-4 col-6 gallery_grid_img">
+          <a class="" href="images/camera.jpg" data-lightbox="example-set" data-title=""> 
+              <img class="img-fluid" src="images/camera.jpg" alt="camera">
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -364,7 +370,24 @@
     <div class="row">
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/wildlife.jpg"></a>
+          <a href="#"><img src="images/wildlife.jpg" height="140"></a>
+          <div class="l-caption">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="l-info">
+          <h5>Portfolio</h5>
+          <p>Photos in our studio are made very awesome!</p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-3">
+        <div class="l-img">
+          <a href="#"><img src="images/flowers.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -381,7 +404,7 @@
 
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/flowers.jpg"></a>
+          <a href="#"><img src="images/Grass.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -398,7 +421,7 @@
 
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/Grass.jpg"></a>
+          <a href="#"><img src="images/passionwild.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -415,7 +438,7 @@
 
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/passionwild.jpg"></a>
+          <a href="#"><img src="images/photoedit.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -432,7 +455,7 @@
 
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/photoedit.jpg"></a>
+          <a href="#"><img src="images/fatushflowers.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -449,7 +472,7 @@
 
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/fatushflowers.jpg"></a>
+          <a href="#"><img src="images/shimbir.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -466,24 +489,7 @@
 
       <div class="col-sm-12 col-md-3">
         <div class="l-img">
-          <a href="#"><img src="images/shimbir.jpg"></a>
-          <div class="l-caption">
-            <ul>
-              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="l-info">
-          <h5>Portfolio</h5>
-          <p>IMages are very awesome</p>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-3">
-        <div class="l-img">
-          <a href="#"><img src="images/natureman.jpg"></a>
+          <a href="#"><img src="images/natureman.jpg" height="150"></a>
           <div class="l-caption">
             <ul>
               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>

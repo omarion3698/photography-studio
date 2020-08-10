@@ -5,7 +5,7 @@
 
 2. Trevor Nyagah
 
-3.Martha Vallary
+3. Martha Vallary
 
 ## Description
 This website is where a user can reach to us when requesting for online photographic services. The website directs the user to us who will find a profeesional person in the field that the user requires when it comes to photographic services.
